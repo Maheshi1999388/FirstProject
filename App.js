@@ -8,6 +8,7 @@ import Req_medical_report from './Screens/Req_medical_report';
 import Req_Lab_report from './Screens/Req_Lab_report';
 import Ask_a_Doctor from './Screens/Ask_a_Doctor';
 import Payment from './Screens/Payment';
+import Pay from './Screens/Pay';
 
 
 
@@ -49,6 +50,7 @@ export default function App() {
           <Stack.Screen name='Req_Lab_report' component={Req_Lab_report}/>
           <Stack.Screen name='Ask_a_Doctor' component={Ask_a_Doctor}/>
           <Stack.Screen name='Payment' component={Payment}/> 
+          <Stack.Screen name='Pay' component={Pay}/> 
 
 
           
